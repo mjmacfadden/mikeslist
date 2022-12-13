@@ -18,6 +18,8 @@ li {
 }
 .btn-sm {
   font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 .product {
   text-transform: uppercase;
@@ -67,6 +69,9 @@ SETTINGS
 }
 .settings p {
   text-align: left;
+  line-height: 28px;
+  font-weight: 100;
+  font-size: 18px;
 }
 .settings h1 {
   font-size: 36px;
@@ -77,4 +82,5 @@ SETTINGS
   color: #999999;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 30px;
 }

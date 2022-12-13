@@ -45,11 +45,13 @@
     <div class="wrapper">
       <i class="bi bi-gear-fill ui-icon" onClick="showSettings()"></i>
       <div class="container text-center pt-2">
-        <img src="img/mikeslist_christmas_logo.png" class="site-logo" />
+        <a href="/">
+          <img src="img/mikeslist_christmas_logo.png" class="site-logo" />
+        </a>
       </div>
 
       <!-- FILTERS -->
-      <div class="container">
+      <div class="container text-center py-3">
         <button
           type="button"
           class="btn btn-sm btn-secondary"
@@ -62,6 +64,36 @@
           onclick="edcFilter()"
           >Every Day Carry</button
         >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="electronicsFilter()"
+          >Electronics</button
+        >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="happyHourFilter()"
+          >Happy Hour</button
+        >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="miscFilter()"
+          >Miscellaneous</button
+        >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="officeFilter()"
+          >Office Goods</button
+        >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="sportFilter()"
+          >Sport</button
+        >
       </div>
       <div class="container text-center">
         <div class="row" id="array-values"> </div>
@@ -72,8 +104,34 @@
       <div class="settings-wrapper">
         <i class="bi bi-x-circle-fill ui-icon" onClick="hideSettings()"></i>
         <h1 class="text-center">Welcome to Mike's List</h1>
-        <h4 class="text-center">What is Mike's List?</h4>
-        <p> Mike's list is your one stop gift guide </p>
+        <p
+          >Welcome to Mike's List, a gift guide featuring the coolest gizmos and
+          gadgets around. Here at Mike's List, we are always on the lookout for
+          the latest and greatest gadgets and gizmos to share with our readers.
+          Whether you're shopping for a tech-savvy friend or looking for the
+          perfect gift for the gadget lover in your life, you'll find something
+          here to suit your needs.</p
+        >
+
+        <p
+          >Our team of experts spends countless hours scouring the internet and
+          testing out new products to bring you the best recommendations. We're
+          always looking for the next big thing, so if you have a suggestion for
+          something we should include on our list, we'd love to hear from
+          you!</p
+        >
+
+        <p
+          >In addition to our gift guide, we also offer reviews and buying
+          guides to help you make informed decisions when purchasing gadgets and
+          gizmos. We want to make sure you get the most out of your money and
+          find the perfect gift for the special people in your life.</p
+        >
+
+        <p
+          >Thank you for visiting Mike's List. We hope you find something you
+          love and come back often to see what's new!</p
+        >
       </div>
     </div>
     <!-- SETTINGS END -->
