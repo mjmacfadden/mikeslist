@@ -17,6 +17,17 @@ var array = [
   "<span class='misc'><a href='https://www.amazon.com/Silk-iPhone-Wallet-Case-Protective/dp/B073V75W3M?crid=2086MS8AMDHZ3&keywords=silk+iphone+xs+case+wallet&qid=1575129432&smid=ATVPDKIKX0DER&sprefix=silk+iphone+xs+case+%2Caps%2C186&sr=8-4&linkCode=li2&tag=mikeslist-20&linkId=08f1d003a51a165a0a45c723aac46455&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B073V75W3M&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Wallet Phone Case></span>",
   //AVANTEK Car Mount Universal Air Vent Cradle, Universal Phone Holder
   "<span class='misc'><a href='https://www.amazon.com/gp/product/B00ZLPJ10Y?ie=UTF8&psc=1&linkCode=li2&tag=mikeslist-20&linkId=3dc27feb2fe210ec51174725fab7ee33&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ZLPJ10Y&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Cell Phone Holder</span>",
+  //UTILITY HOOK
+  "<span class='office'><a href='https://www.amazon.com/Foldable-Headphone-Aluminum-Headphones-Universal/dp/B07PFV1NQX?crid=P8YE6Y21TN0W&keywords=apphome+upgrade+foldable&qid=1670952879&sprefix=apphome+upgrade+foldable%2Caps%2C125&sr=8-1&linkCode=li2&tag=mikeslist-20&linkId=74354c528f8138d4b0fcf139c1fff604&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07PFV1NQX&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Utility Hook</span>",
+  //HEADPHONES
+  "<span class='electronics'><a href='https://www.amazon.com/Headphones-Otium-Waterproof-Sweatproof-Cancelling/dp/B018APC50Y?crid=1U3DU0M8HU60B&keywords=otium+bluetooth+headphones&qid=1574612456&s=sporting-goods&sprefix=otiu+%2Csporting%2C184&sr=1-1-catcorr&th=1&linkCode=li2&tag=mikeslist-20&linkId=62b4cbd1f02c9089e445af50540b558e&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B018APC50Y&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Bluetooth Headphones</span>",
+  //WIRELESS CHARGER
+  "<span class='electronics'><a href='https://www.amazon.com/mophie-Wireless-Charge-Optimized-Technology/dp/B075M4ZH17?keywords=wireless+iphone+charger&qid=1575130060&s=electronics&smid=ATVPDKIKX0DER&sr=1-4&linkCode=li2&tag=mikeslist-20&linkId=2ecc0371195d76df441220f4737d204e&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B075M4ZH17&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Wireless Charger</span>",
+  //KERSHAW POCKET KNIFE
+  "<span class='edc'><a href='https://www.amazon.com/Kershaw-Everyday-High-Performance-Stainless-Bead-Blasted/dp/B002IVHQ5Q?dchild=1&keywords=kershaw+chill&qid=1575043826&s=office-products&sr=8-1&linkCode=li2&tag=mikeslist-20&linkId=5b3960d673cbdc430b0c4e021a7ff20c&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002IVHQ5Q&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Kershaw Chill</span>",
+  //CARHARTT HAT
+  "<span class='sport misc apparel'><a href='https://www.amazon.com/dp/B002G9UE3Q?_encoding=UTF8&th=1&psc=1&linkCode=li2&tag=mikeslist-20&linkId=0c8f2a75e69ea9be7322aeb736027e69&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002G9UE3Q&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Carhartt Hat</span>",
+  //"<span class=''><br></span>",
   //*** BROWN ***//
   //Killerspin JET200 Ping Pong Paddle
   "<span class='sport misc'><a href='https://www.amazon.com/dp/B01LZEWZGE?_encoding=UTF8&th=1&linkCode=li2&tag=mikeslist-20&linkId=496bb45e2403f659cb16b5599d538beb&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01LZEWZGE&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Ping Pong Paddle</span>",
@@ -77,7 +88,10 @@ function sportFilter() {
   hideAll();
   $("span.sport").parent().css("display", "block");
 }
-
+function apparelFilter() {
+  hideAll();
+  $("span.apparel").parent().css("display", "block");
+}
 //SETTINGS PAGE
 
 // First, select the element with the class "settings"
