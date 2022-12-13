@@ -4,54 +4,105 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mike's List</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mike's List</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-        crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container text-center pt-2">
-            <img src="img/mikeslist_christmas_logo.png" class="site-logo">
-        </div>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <i class="bi bi-gear-fill ui-icon" onClick="showSettings()"></i>
+      <div class="container text-center pt-2">
+        <img src="img/mikeslist_christmas_logo.png" class="site-logo" />
+      </div>
 
-        <!-- FILTERS -->
-        <div class="container">
-          <button type="button" class="btn btn-sm btn-secondary" onclick="showAll()">All</button>
-          <button type="button" class="btn btn-sm btn-secondary" onclick="edcFilter()">Every Day Carry</button>
-        </div>
-        <div class="container text-center">
-            <div class="row" id="array-values">
-                
-            </div>    
-        </div>
+      <!-- FILTERS -->
+      <div class="container">
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="showAll()"
+          >All</button
+        >
+        <button
+          type="button"
+          class="btn btn-sm btn-secondary"
+          onclick="edcFilter()"
+          >Every Day Carry</button
+        >
+      </div>
+      <div class="container text-center">
+        <div class="row" id="array-values"> </div>
+      </div>
+    </div>
+    <!-- SETTINGS START -->
+    <div class="settings">
+      <div class="settings-wrapper">
+        <i class="bi bi-x-circle-fill ui-icon" onClick="hideSettings()"></i>
+        <h1 class="text-center">Welcome to Mike's List</h1>
+        <h4 class="text-center">What is Mike's List?</h4>
+        <p>
+          In a group of three or more, players will take turn as judge and
+          "draw" a challenge/prompt card by pressing the "Play Now" button.
+        </p>
+        <p>
+          The other players in the game will then respond to the
+          challenge/prompt with the content on their social media device.
+          Players will take turn sharing their content in response to the
+          challenge/prompt. The judge will then choose a winner and award points
+          based on their subjective opinion.
+        </p>
+        <p>
+          On the next turn, the next player will act as judge and "draw" a new
+          challnge/prompt. First playyer to win 10 points wins the game (but
+          really this is just supposed to be fun—we're all winners. Aren't we?)
+        </p>
+      </div>
+    </div>
 
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-          integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-          crossorigin="anonymous"
-        ></script>
+    <!-- SETTINGS END -->
 
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-          integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-          crossorigin="anonymous"
-        ></script>
-        <script src="javascript.js" async defer></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js" async defer></script>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy"
+        >You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.</p
+      >
+    <![endif]-->
+  </body>
 </html>
