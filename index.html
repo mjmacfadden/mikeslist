@@ -21,11 +21,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container text-center py-5">
-            <h1>Mike's List</h1>
+        <div class="container text-center pt-2">
+            <img src="img/mikeslist_christmas_logo.png" class="site-logo">
         </div>
+
+        <!-- FILTERS -->
         <div class="container">
-                <button type="button" class="btn btn-sm btn-secondary">Button</button>
+          <button type="button" class="btn btn-sm btn-secondary" onclick="showAll()">All</button>
+          <button type="button" class="btn btn-sm btn-secondary" onclick="edcFilter()">Every Day Carry</button>
         </div>
         <div class="container text-center">
             <div class="row" id="array-values">
