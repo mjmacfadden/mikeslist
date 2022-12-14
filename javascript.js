@@ -203,3 +203,20 @@ function hideSettings() {
   // Set the opacity of the element to 1 and the z-index to 2
   settingsDiv.setAttribute("style", "opacity: 0; z-index: 0;");
 }
+
+//SEARCH
+const searchInput = document.getElementById("search-input");
+const productsS = document.querySelectorAll(".product");
+
+searchInput.addEventListener("input", (event) => {
+  const searchTerm = event.target.value;
+
+  products.forEach((product) => {
+    const title = product.querySelector("span").innerText;
+    if (title.includes(searchTerm)) {
+      product.style.display = "block";
+    } else {
+      product.style.display = "none";
+    }
+  });
+});
