@@ -209,10 +209,11 @@ const searchInput = document.getElementById("search-input");
 const productsS = document.querySelectorAll(".product");
 
 searchInput.addEventListener("input", (event) => {
-  const searchTerm = event.target.value;
+  const searchTerm = event.target.value.toLowerCase();
 
-  products.forEach((product) => {
-    const title = product.querySelector("span").innerText;
+  productsS.forEach((product) => {
+    const title = product.querySelector("span").title.toLowerCase();
+    title.toLowerCase
     if (title.includes(searchTerm)) {
       product.style.display = "block";
     } else {
