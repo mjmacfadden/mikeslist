@@ -133,6 +133,10 @@ var array = [
   "<span class='sport' title='Pro Kadima'><a href='https://www.amazon.com/Pro-Kadima-Beach-Paddles-Yellow/dp/B01D8VLFJ2?crid=10U0KTLOCE41U&keywords=pro+kadima&qid=1671036267&refinements=p_72%3A1248957011%2Cp_85%3A2470955011&rnid=2470954011&rps=1&s=sporting-goods&sprefix=pro+kadima%2Caps%2C144&sr=1-2-spons&psc=1&smid=A1IOF3UMEVY9VT&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVFZHVkFVRVBaSkNCJmVuY3J5cHRlZElkPUEwOTA5Mjg4MkNENVNQMVJHRFRXRCZlbmNyeXB0ZWRBZElkPUEwNjcyMTEzSDROUlFNNUg4NlJXJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=mikeslist-20&linkId=3d30a2d6e07162525095038c8725e5d1&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01D8VLFJ2&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Pro Kadima</span>",
   //Pickleball Set
   "<span class='sport' title='Pickleball Set'><a href='https://www.amazon.com/Amazin-Aces-Pickleball-Pickleballs-Beginners/dp/B079J4Q6FQ?content-id=amzn1.sym.03e615cb-c244-4870-9f05-dcf4dc6eea27%3Aamzn1.sym.03e615cb-c244-4870-9f05-dcf4dc6eea27&crid=1L4J24R3LR4F5&cv_ct_cx=pickelball+gift&keywords=pickelball+gift&pd_rd_i=B079J4Q6FQ&pd_rd_r=08590d58-b204-4f60-a345-73b773911e4d&pd_rd_w=FR8we&pd_rd_wg=al8NY&pf_rd_p=03e615cb-c244-4870-9f05-dcf4dc6eea27&pf_rd_r=MNFR7XRNGH7993ZXA6QV&qid=1671036397&refinements=p_85%3A2470955011%2Cp_72%3A1248957011&rnid=1248955011&s=sporting-goods&sprefix=picke%2Caps%2C171&sr=1-1-6d4e102d-4296-45c9-bdaa-d091fec213d0-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVFhWNzYwSThTTEhFJmVuY3J5cHRlZElkPUEwODc4NDg3MkJPRlBDVUlVOTNFRyZlbmNyeXB0ZWRBZElkPUEwNTg5NjUxT0lSUjc3SEhCQk9UJndpZGdldE5hbWU9c3Bfc2VhcmNoX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D&linkCode=li2&tag=mikeslist-20&linkId=0d334f4c2de549af1a920c0c02e73220&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B079J4Q6FQ&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Pickleball Set</span>",
+  //Yeti Handle
+  "<span class='misc' title='Yeti Handle'><a href='https://www.amazon.com/ZYTC-Handle-Tumbler-Rambler-Travel/dp/B07C5NHSCC?keywords=yeti+rambler+handle+30+oz+tumbler&qid=1671037213&sprefix=yeti+rambler+handle%2Caps%2C166&sr=8-3&linkCode=li2&tag=mikeslist-20&linkId=b5664619dfa8eff2a291558ef030e702&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07C5NHSCC&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Yeti Handle</span>",
+  //Spikeball
+  "<span class='sport' title='Spikeball'><a href='https://www.amazon.com/Spikeball-Ball-Kit-Playing-Drawstring/dp/B002V7A7MQ?crid=EC5RSICS5WHL&keywords=spike+ball&qid=1671037397&sprefix=spike+ball%2Caps%2C139&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWEFLWk1MR1RXREcmZW5jcnlwdGVkSWQ9QTAxODEwNzkxQVpGOTdNSTQ2REtLJmVuY3J5cHRlZEFkSWQ9QTA2NTE3MjFQQU02UFZCRk5FS0Ymd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=li2&tag=mikeslist-20&linkId=813848cb022838a7ccb15a6b72e2f03f&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B002V7A7MQ&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Spikeball</span>",
   //"<span class='' title=''><br></span>",
 ];
 
@@ -232,7 +236,7 @@ searchInput.addEventListener("input", (event) => {
 
   productsS.forEach((product) => {
     const title = product.querySelector("span").title.toLowerCase();
-    title.toLowerCase
+    title.toLowerCase;
     if (title.includes(searchTerm)) {
       product.style.display = "block";
     } else {
