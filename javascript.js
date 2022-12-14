@@ -1,6 +1,7 @@
 var array = [
   //*** WHITE ***//
   //Hydro Flask Vacuum Insulated Stainless Steel Water Bottle Wide Mouth with Straw Lid (White, 32-Ounce)
+  {  "tags": ['edc'], "title": "Hydro Flask", link: "" },
   "<span class='edc' title='Hydro Flask'><a href='https://www.amazon.com/dp/B01GW2GQOI?psc=1&pd_rd_i=B01GW2GQOI&pd_rd_w=KQaA3&pf_rd_p=45a72588-80f7-4414-9851-786f6c16d42b&pd_rd_wg=8eBlP&pf_rd_r=WVQN5TDWCPV2PG5CYM0Z&pd_rd_r=adb4a7c7-a6d8-49f0-b277-441c69ef1ff0&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWVRYQ01EQlo4UkxXJmVuY3J5cHRlZElkPUEwNTQ0NjQ1MU9ISVZOUEFTVTVERiZlbmNyeXB0ZWRBZElkPUEwNTk1NDg0MzRJUVU1MUgyWlNRViZ3aWRnZXROYW1lPXNwX2RldGFpbCZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=li2&tag=mikeslist-20&linkId=d7ca69a454cdd12d064d1db9a38f1c84&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01GW2GQOI&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' title='Hydro Flask'></a><br>Hydro Flask</span>",
   //YETI Rambler 20 oz Stainless Steel Vacuum Insulated Tumbler w/MagSlider Lid
   "<span class='misc' title='Yeti Rambled'><a href='https://www.amazon.com/dp/B07BMDSS3L?_encoding=UTF8&psc=1&linkCode=li2&tag=mikeslist-20&linkId=86752c74ac1037038ad0ece4f3a6f425&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BMDSS3L&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Yeti 20 oz Tumbler</span>",
@@ -84,10 +85,15 @@ var arrayValuesElement = document.getElementById("array-values");
 
 // Loop through the array
 for (var i = 0; i < array.length; i++) {
+  var span = document.createElement("span");
+  span.className = array[i]["tags"].join(" ");
+  span.title = array[i]["title"];
+  span.innerHTML = array[i]["link"];
+
   // Create a new list item for each array value
   var newListItem = document.createElement("div");
   newListItem.className = "col-6 col-sm-4 col-md-3 col-lg-2 py-3 product";
-  newListItem.innerHTML = array[i];
+  newListItem.innerHTML = span;
 
   // Append the new list item to the array values element
   arrayValuesElement.appendChild(newListItem);
