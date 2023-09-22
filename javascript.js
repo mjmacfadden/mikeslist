@@ -63,8 +63,8 @@ var array = [
   "<span class='apparel' title='Fingerless Mittens'><a href='https://www.amazon.com/dp/B08CXNYF8C?&linkCode=li2&tag=mikeslist-20&linkId=9f4545ffc8f7bd8bc4c48864697bed67&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08CXNYF8C&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Fingerless Mittens</span>",
 
   //*** BLUE ***/
-  //Hamock
-  "<span class='outdoors' title='Hamock'><a href='https://www.amazon.com/dp/B01FONRO7E?_encoding=UTF8&psc=1&linkCode=li2&tag=mikeslist-20&linkId=437b9b6e15e297b62131da11deadaef3&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01FONRO7E&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Hamock</span>",
+  //Hammock
+  "<span class='outdoors' title='Hammock'><a href='https://www.amazon.com/dp/B01FONRO7E?_encoding=UTF8&psc=1&linkCode=li2&tag=mikeslist-20&linkId=437b9b6e15e297b62131da11deadaef3&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01FONRO7E&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Hammock</span>",
   //Opinel No. 8
   "<span class='outdoors edc' title='Opinel No. 8*'><a href='https://www.amazon.com/Opinel-N%C2%B008-Pocket-Folding-Knife/dp/B07F7DV4TC?dchild=1&keywords=opinel+blue&qid=1575216431&sr=8-1&linkCode=li2&tag=mikeslist-20&linkId=5750b8585cfb9377e3bea5f83405b9e3&language=en_US&ref_=as_li_ss_il' target='_blank'><img border='0' src='//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07F7DV4TC&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mikeslist-20&language=en_US' ></a><br>Opinel No. 8*</span>",
   //Jack Black Lip Balm
